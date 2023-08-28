@@ -1,11 +1,11 @@
 .navbar {
+    position: fixed;
     width: 100%;
     color: black;
     padding: 12px 0;
     overflow: hidden;
     background-color: rgb(255, 255, 255);
     z-index: 1000;
-    position: sticky;
 }
 
 nav {
