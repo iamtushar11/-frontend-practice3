@@ -1,0 +1,241 @@
+.card-container {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.card-wrapper {
+    padding-top: 110px;
+    padding-bottom: 40px;
+    /* position: relative; */
+    /* overflow: hidden; */
+}
+
+.background {
+    top: -7%;
+    left: 30%;
+    width: 60vw;
+    height: 90vh;
+    position: absolute;
+    bottom: auto;
+    z-index: -5;
+    border-radius: 6.6vw;
+    background-color: #f2faff;
+    transform: rotate(136deg);
+
+}
+
+
+.card-padding {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    position: relative;
+    z-index: 2;
+}
+
+.conatiner-large {
+    width: 100%;
+    max-width: 70rem;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 4%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0;
+}
+
+.left-content {
+
+    font-weight: 400;
+}
+
+.content-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+
+}
+
+.right-content {
+    position: relative;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.monthly {
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1.22px;
+    text-transform: uppercase;
+}
+
+.toggle {
+    display: flex;
+    width: 50px;
+    height: 29px;
+    margin-right: 28px;
+    margin-left: 28px;
+    padding-right: 0;
+    padding-left: 0;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 200px;
+    background-color: #01b289;
+    cursor: pointer;
+}
+
+.yearly {
+    /* position: relative; */
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 1.22px;
+    text-transform: uppercase;
+}
+
+.month-free {
+    position: absolute;
+    left: auto;
+    right: -7%;
+    bottom: 15px;
+    border: 0;
+    vertical-align: middle;
+    /* display: inline-block; */
+    max-width: 100%;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    margin-bottom: 30px;
+    padding: 6% 4%;
+    border: 0.3px solid rgba(2, 4, 69, .15);
+    border-radius: 4px;
+    background-color: #fbfcff;
+    overflow: hidden;
+}
+
+.card-heading {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.625rem;
+    line-height: 1.4;
+}
+
+.paragraph {
+    max-width: 90vw;
+}
+
+.prices {
+    font-size: 62px;
+    line-height: 72px;
+    font-weight: 600;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 2px solid #01b289;
+}
+
+.dollar {
+    position: relative;
+    bottom: 30px;
+    margin-right: 10px;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    font-size: 30px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.per-month {
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1.625rem;
+    line-height: 1.4;
+    margin-left: 10px;
+}
+
+.list {
+    margin-bottom: 25px;
+    padding-top: 40px;
+}
+
+.list-item {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 18px;
+    text-align: left;
+    align-items: center;
+    color: #4c4d5f;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.btn1-card {
+    width: 100%;
+    padding: 22px 25px;
+    border-radius: 4px;
+    background-color: #00b289;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: .7px;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    /* right: 20px; */
+    color: #fff;
+}
+
+.popular {
+    position: absolute;
+    left: auto;
+    top: 50px;
+    right: -109px;
+    bottom: auto;
+    width: 360px;
+    padding: 11px 100px;
+    background-color: #01b289;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.btn-card2 {
+    position: relative;
+    top: 64px;
+}
+
+.btn-card1 {
+    position: relative;
+    top: 65px;
+}
